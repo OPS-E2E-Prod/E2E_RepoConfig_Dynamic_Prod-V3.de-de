@@ -55,5 +55,7 @@
   "use_docfxv3": true,
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "use_docfxv3": true
+  "docs_build_engine":{
+    "name": "docfx_v3"
+  }
 }
