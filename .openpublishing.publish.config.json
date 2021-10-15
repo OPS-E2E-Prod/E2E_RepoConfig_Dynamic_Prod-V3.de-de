@@ -19,6 +19,7 @@
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": null,
   "branches_to_filter": [
     "live-sxs",
     "master-sxs"
@@ -27,11 +28,12 @@
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
   "need_pr_comments": false,
+  "contribution_branch_mappings": null,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.de-de",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
@@ -40,7 +42,7 @@
       "branch": "live",
       "branch_mapping": {
         "live": "live",
-        "master": "master"
+        "main": "main"
       }
     }
   ],
@@ -54,7 +56,7 @@
   "need_generate_pdf_url_template": false,
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "docs_build_engine":{
+  "docs_build_engine": {
     "name": "docfx_v3"
   }
 }
